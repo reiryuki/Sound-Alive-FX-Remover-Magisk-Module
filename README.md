@@ -5,13 +5,13 @@
 - Required for some audio mods to be working properly like DTS Audio & Waves Maxx Audio in Samsung devices.
 
 ## Requirements
-- Magisk installed
+- Magisk or KernelSU installed
 
 ## Installation Guide & Download Link
-- Install this module https://www.pling.com/p/1951165/ via Magisk Manager or Recovery
+- Install this module https://www.pling.com/p/1951165/ via Magisk app or KernelSU app or Recovery if Magisk installed
 - This is also an audio mod so, you need to install AML Magisk Module https://t.me/androidryukimodsdiscussions/29836 if using any other audio mod module
 - Reboot
-- You can check is your dirac or misoundfx removed or not via Terminal Emulator:
+- You can check is your soundalive removed or not via Terminal Emulator:
 
   `su -c dumpsys media.audio_flinger`
 
