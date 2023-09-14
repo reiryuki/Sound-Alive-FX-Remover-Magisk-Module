@@ -1,7 +1,7 @@
 # Sound Alive FX Remover Magisk Module
 
 ## Descriptions
-- Removes Samsung Sound Alive FX
+- Removes Samsung Sound Alive FX & app systemlessly
 - Required for some audio mods to be working properly like DTS Audio & Waves Maxx Audio in Samsung devices.
 
 ## Requirements
@@ -32,7 +32,7 @@
 - You can contribute ideas about this Magisk Module here: https://t.me/androidappsportdevelopment
 
 ## Thanks for Donations
-- This Magisk Module is always will be free but you can however show us that you are care by making a donations:
+This Magisk Module is always will be free but you can however show us that you are care by making a donations:
 - https://ko-fi.com/reiryuki
 - https://www.paypal.me/reiryuki
 - https://t.me/androidryukimodsdiscussions/2619
