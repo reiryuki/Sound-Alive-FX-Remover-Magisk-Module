@@ -43,8 +43,8 @@ sed -i 's|<libhw library="removed" uuid="removed" />||g' $MODAEX
 sed -i 's|<apply effect="removed" />||g' $MODAEX
 }
 
-# remove
-RMVS="libaudioeffectoffload.so
+# store
+RMVS='libaudioeffectoffload.so
       volumemonitor_hw
       052a63b0-f95a-11e9-8f0b-362b9e155667
       libvolumemonitor_energy.so
@@ -90,7 +90,9 @@ RMVS="libaudioeffectoffload.so
       b247dfc9-2832-4486-92c0-2db27a3785f5
       libvoicechanger.so
       voicechanger
-      25c30101-9542-451f-a064-c3198e187dfc"
+      25c30101-9542-451f-a064-c3198e187dfc'
+
+# patch audio effects
 if [ "$MODAEC" ]; then
   remove_conf
 fi
