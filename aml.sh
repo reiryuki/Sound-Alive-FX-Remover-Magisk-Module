@@ -1,8 +1,8 @@
 [ ! "$MODPATH" ] && MODPATH=${0%/*}
 
 # destination
-MODAEC=`find $MODPATH -type f -name *audio*effects*.conf`
-MODAEX=`find $MODPATH -type f -name *audio*effects*.xml`
+MODAECS=`find $MODPATH -type f -name *audio*effects*.conf`
+MODAEXS=`find $MODPATH -type f -name *audio*effects*.xml`
 
 # function
 remove_conf() {
@@ -93,12 +93,12 @@ RMVS='libaudioeffectoffload.so
       25c30101-9542-451f-a064-c3198e187dfc'
 
 # patch audio effects
-if [ "$MODAEC" ]; then
+for MODAEC in $MODAECS; do
   remove_conf
-fi
-if [ "$MODAEX" ]; then
+done
+for MODAEX in $MODAEXS; do
   remove_xml
-fi
+done
 
 
 
