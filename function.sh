@@ -1,14 +1,11 @@
 # function
 remove_cache() {
-APPS=SoundAlive
+FILES=`find $MODPATH -type f -name *.apk | sed 's|.apk||g'`
+APPS=`for FILE in $FILES; do basename $FILE; done`
 for APP in $APPS; do
   rm -f `find /data/system/package_cache\
    /data/dalvik-cache /data/resource-cache\
    -type f -name *$APP*`
-done
-PKGS=`cat $MODPATH/package.txt`
-for PKG in $PKGS; do
-  rm -rf /data/user*/"$UID"/$PKG
 done
 }
 mount_partitions_in_recovery() {
