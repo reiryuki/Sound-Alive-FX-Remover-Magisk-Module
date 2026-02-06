@@ -140,6 +140,7 @@ APPS="`ls $SYSTEM/app | grep $NAME`
 hide_app
 
 # run
+MODSYSTEM=/system
 . $MODPATH/copy.sh
 . $MODPATH/.aml.sh
 
