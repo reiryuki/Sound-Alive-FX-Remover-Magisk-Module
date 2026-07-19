@@ -55,8 +55,8 @@ ui_print " "
 # recovery
 mount_partitions_in_recovery
 
-# magisk
-magisk_setup
+# mirror
+mirror_setup
 
 # path
 SYSTEM=`realpath $MIRROR/system`
@@ -147,16 +147,6 @@ MODSYSTEM=/system
 
 # unmount
 unmount_mirror
-
-
-
-
-
-
-
-
-
-
 
 
 

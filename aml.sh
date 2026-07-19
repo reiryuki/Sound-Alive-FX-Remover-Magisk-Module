@@ -102,9 +102,18 @@ for MODAEX in $MODAEXS; do
   remove_xml
 done
 
-
-
-
-
+# remove
+FILES=`find /system /odm /my_product -type f -name *audio*effects*spatializer*.xml`
+for FILE in $FILES; do
+  MODFILE=$MODPATH/system`echo "$FILE" | sed 's|/system||g'`
+  rm -f $MODFILE
+  mknod $MODFILE c 0 0
+done
+FILES=`find /vendor -type f -name *audio*effects*spatializer*.xml`
+for FILE in $FILES; do
+  MODFILE=$MODPATH$MODSYSTEM$FILE
+  rm -f $MODFILE
+  mknod $MODFILE c 0 0
+done
 
 

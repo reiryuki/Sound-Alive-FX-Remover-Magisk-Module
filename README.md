@@ -9,6 +9,9 @@ Magisk or Kitsune Mask or KernelSU or Apatch installed
 
 ## Changelog
 
+v1.2
+- Removes /vendor/etc/audio_effects_spatializer.xml systemlessly
+
 v1.1
 - Support NoMount metamodule
 - Resets module folders/files permissions at post-fs-data
@@ -44,19 +47,8 @@ v0.3
 - Fix mount partitions
 - Move uninstall log to /data/media/0/..._uninstall.log
 
-v0.2
-- KernelSU support
-- Magisk v26.1 support
-- Removes some other Samsung soundfx
-- Cleaning protected storage
-- Save install log at /sdcard/..._recovery.log while installing via Recovery
-- Fix mount required partitions while installing via Recovery
-- Creates /sdcard/optionals.prop file if it doesn't exist
-- Using magiskpolicy --live --apply sepolicy.pfsd if sepolicy.sh=1
-- Save uninstall log in /data/adb/modules/..._uninstall.log
-
 ## Installation Guide & Download Link
-- Install this module https://devuploads.com/clr3apt4inv8 via Magisk app or Kitsune Mask app or KernelSU app or Apatch app or Recovery if Magisk or Kitsune Mask installed
+- Install this module https://github.com/reiryuki/Sound-Alive-FX-Remover-Magisk-Module via Magisk app or Kitsune Mask app or KernelSU app or Apatch app or Recovery if Magisk or Kitsune Mask installed
 - This is also an audio mod so, you need to install AML Magisk Module https://t.me/ryukinotes/34 if using any other else audio mod module
 - Reboot
 - You can use https://github.com/reiryuki/Z-Folder-Script and check the loaded_soundfx.txt created is your soundalive effect removed or not.
@@ -75,7 +67,7 @@ Global: https://t.me/ryukinotes/34
 - @HuskyDG
 - https://t.me/viperatmos
 - https://t.me/androidryukimodsdiscussions
-- You can contribute ideas about this Magisk Module here: https://t.me/androidappsportdevelopment
+- https://t.me/androidappsportdevelopment
 
 ## Sponsors
 https://t.me/ryukinotes/25

@@ -19,6 +19,6 @@ for FILE in $FILES; do
   MODFILE=$MODPATH$MODSYSTEM$FILE
   copy_dir_file $FILE $MODFILE
 done
-rm -f `find $MODPATH -type f -name *audio*effects*spatializer*.xml -o -name *audio*effects*haptic*.xml`
+rm -f `find $MODPATH -type f -name *audio*effects*haptic*.xml`
 
 
