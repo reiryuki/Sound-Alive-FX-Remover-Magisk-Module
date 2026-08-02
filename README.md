@@ -48,10 +48,13 @@ v0.3
 - Move uninstall log to /data/media/0/..._uninstall.log
 
 ## Installation Guide & Download Link
-- Install this module https://devuploads.com/69s9qmfdnsqn via Magisk app or Kitsune Mask app or KernelSU app or Apatch app or Recovery if Magisk or Kitsune Mask installed
+- Install this module https://bicolink.com/2GNChTjeRc via Magisk app or Kitsune Mask app or KernelSU app or Apatch app or Recovery if Magisk or Kitsune Mask installed
 - This is also an audio mod so, you need to install AML Magisk Module https://t.me/ryukinotes/34 if using any other else audio mod module
 - Reboot
 - You can use https://github.com/reiryuki/Z-Folder-Script and check the loaded_soundfx.txt created is your soundalive effect removed or not.
+
+## Download Tutorial
+https://t.me/ryukinotes/97
 
 ## Optionals
 Global: https://t.me/ryukinotes/35
